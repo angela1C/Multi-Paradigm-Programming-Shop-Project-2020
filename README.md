@@ -1,8 +1,5 @@
-# Multi-Paradigm-Programming-Shop-Project-2020
-
 
 This folder contains the files for the Shop Assignment submitted for the Multi-Paradigm Programming module at GMIT by Angela Carpenter.
-The actual project was to be submitted through the college Moodle platform as a zip file. This repository serves as a reference for the project.
 
 ---
 
