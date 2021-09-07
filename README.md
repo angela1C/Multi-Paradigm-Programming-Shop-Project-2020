@@ -1,9 +1,12 @@
 
-This folder contains the files for the Shop Assignment submitted for the Multi-Paradigm Programming module at GMIT by Angela Carpenter.
+# Multi-Paradigm Programming project
+
+This folder contains the files for the Shop Assignment submitted for the Multi-Paradigm Programming module at GMIT. The actual project was to be submitted through the college Moodle platform as a zip file. This repository serves as a reference for the project.
 
 ---
 
-The assignment was to build a shop program as developed in the lecture video series with the following functionality:
+
+The assignment was to build a Shop program with the functionality as outlined below and to write a report comparing the various programming paradigms used.
 
 ## Functionality
 - The shop CSV should hold the initial cash value for the shop.
@@ -19,21 +22,34 @@ The assignment was to build a shop program as developed in the lecture video ser
 
 - Operate in a live mode, where the user can enter a product by name, specify a quantity, and pay for it. The user should be able to buy many products in this way.
 
-## Notes
+#### Notes
 - The above described functionality is completed in both Python and C in a procedural programming style.
 - The functionality of the shop is replicated in an Object Oriented manner using either Python or Java.
-- A report is included which compares the solutions achieved using the procedural approach and the object oriented approach.
+
 - The live mode, and the input files, should have the exact same behaviour in all implementations with an identical user experience.
+
+## Report
+
+- The project also required a report to be completed that compares the solutions achieved using the procedural approach and the object oriented approach.
 
 ---
 
-## Files
+## Repository Content
 
-- The procedural approach is written in both C and Python. 
-- The Python procedural code is in a python file called `shop.py` in a folder called `python`.
-- The C procedural code is written in a folder called `c` in a file called `shop.c`. 
-- The object oriented approach is written in Python in a file called shop_oop.py in a folder called python_oop.
+- This README file, a `.gitignore` and a Licence file
 
+- The [project instruction](https://github.com/angela1C/Multi-Paradigm-Programming-Shop-Project-2020/blob/7ef24208496b1f31f6d86dd0bf647ba673cdf2aa/MPP_Shop_project.pdf) in PDF format.
+
+- The  program code written in both C and Python. 
+    1. The Python procedural code is in a Python file called `shop.py` in a subfolder called `python`.
+    2. The C procedural code is written in a subfolder called `c` in a file called `shop.c`. 
+    3. The object oriented approach is written in Python in a file called `shop_oop.py` in a subfolder called `python_oop`.
+
+- The [Project Report](https://github.com/angela1C/Multi-Paradigm-Programming-Shop-Project-2020/blob/7ef24208496b1f31f6d86dd0bf647ba673cdf2aa/report.md) in Markdown format.
+- The [Project Report](https://github.com/angela1C/Multi-Paradigm-Programming-Shop-Project-2020/blob/7ef24208496b1f31f6d86dd0bf647ba673cdf2aa/report.pdf) in PDF format.
+
+- A `stock.csv` containing the opening stock and cash of the shop
+- Several CSV files containing valid customer orders as well as test customer orders which cannot be completed by the shop.
 
 ## Running the code
 
