@@ -1,7 +1,7 @@
 
 # Multi-Paradigm Programming project
 
-This folder contains the files for the Shop Assignment submitted for the Multi-Paradigm Programming module at GMIT. The actual project was to be submitted through the college Moodle platform as a zip file. This repository serves as a reference for the project.
+This repository contains the files for the Shop Assignment submitted for the Multi-Paradigm Programming module at GMIT. The actual project was to be submitted through the college Moodle platform as a zip file. This repository serves as a reference for the project.
 
 ---
 
@@ -22,8 +22,7 @@ The assignment was to build a Shop program with the functionality as outlined be
 
 - Operate in a live mode, where the user can enter a product by name, specify a quantity, and pay for it. The user should be able to buy many products in this way.
 
-#### Notes
-- The above described functionality is completed in both Python and C in a procedural programming style.
+- The above described functionality to be completed in both Python and C in a procedural programming style.
 - The functionality of the shop is replicated in an Object Oriented manner using either Python or Java.
 
 - The live mode, and the input files, should have the exact same behaviour in all implementations with an identical user experience.
@@ -41,9 +40,9 @@ The assignment was to build a Shop program with the functionality as outlined be
 - The [project instruction](https://github.com/angela1C/Multi-Paradigm-Programming-Shop-Project-2020/blob/7ef24208496b1f31f6d86dd0bf647ba673cdf2aa/MPP_Shop_project.pdf) in PDF format.
 
 - The  program code written in both C and Python. 
-    1. The Python procedural code is in a Python file called `shop.py` in a subfolder called `python`.
-    2. The C procedural code is written in a subfolder called `c` in a file called `shop.c`. 
-    3. The object oriented approach is written in Python in a file called `shop_oop.py` in a subfolder called `python_oop`.
+    1. The Python procedural code is in a Python file called `shop.py` in the `python subfolder `.
+    2. The C procedural code is written in a file called `shop.c` in the `C` subfolder.
+    3. The object oriented approach is written in Python in a file called `shop_oop.py` in the `python_oop` subfolder.
 
 - The [Project Report](https://github.com/angela1C/Multi-Paradigm-Programming-Shop-Project-2020/blob/7ef24208496b1f31f6d86dd0bf647ba673cdf2aa/report.md) in Markdown format.
 - The [Project Report](https://github.com/angela1C/Multi-Paradigm-Programming-Shop-Project-2020/blob/7ef24208496b1f31f6d86dd0bf647ba673cdf2aa/report.pdf) in PDF format.
@@ -51,15 +50,18 @@ The assignment was to build a Shop program with the functionality as outlined be
 - A `stock.csv` containing the opening stock and cash of the shop
 - Several CSV files containing valid customer orders as well as test customer orders which cannot be completed by the shop.
 
+---
+
 ## Running the code
 
-#### Procedural code:
+#### Procedural code
 - Navigate to the `c` folder and run `gcc shop.c` from the command line to compile the program first into a file called `a.out`. Once compiled the program can be run using the command `./a.out`. 
 - Navigate to the `python` folder and use the command `python shop.py` to run the program from the command line.
 
 #### Object Oriented Style
 - Navigate to the `python_oop` folder and use the command `python shop_oop.py` to run the program from the command line.
 
+### The user interface
 The interface for the user is the same for all 3 versions of the program. The user is present with a display menu that has 3 options available.
     * Option 1 is to print the current shop state. This will show the cash and stock amounts in the shop whenever it is called. Initially the shop cash and stock items are read from a csv file called `stock.csv`. Once read in the file is no longer used. 
     * Option 2 gives the user the option to act as a customer that has an order in a file. The user is asked to enter the name of the file. The user should just enter the name of the file without the `.csv` extension. For example a file named `customer.csv` is just entered as `customer` and likewise with all the other customer files.
