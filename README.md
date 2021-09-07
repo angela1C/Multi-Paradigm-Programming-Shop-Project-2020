@@ -63,10 +63,9 @@ The assignment was to build a Shop program with the functionality as outlined be
 
 ### The user interface
 The interface for the user is the same for all 3 versions of the program. The user is present with a display menu that has 3 options available.
-    * Option 1 is to print the current shop state. This will show the cash and stock amounts in the shop whenever it is called. Initially the shop cash and stock items are read from a csv file called `stock.csv`. Once read in the file is no longer used. 
-    * Option 2 gives the user the option to act as a customer that has an order in a file. The user is asked to enter the name of the file. The user should just enter the name of the file without the `.csv` extension. For example a file named `customer.csv` is just entered as `customer` and likewise with all the other customer files.
-
-    * Option 3 gives the user the option  to enter a live mode, where the user can enter a product by name, specify a quantity, and pay for it. The user can buy many products in this way.
+   * Option 1 is to print the current shop state. This will show the cash and stock amounts in the shop whenever it is called. Initially the shop cash and stock items are read from a csv file called `stock.csv`. Once read in the file is no longer used. 
+   * Option 2 gives the user the option to act as a customer that has an order in a file. The user is asked to enter the name of the file. The user should just enter the name of the file without the `.csv` extension. For example a file named `customer.csv` is just entered as `customer` and likewise with all the other customer files.
+   * Option 3 gives the user the option  to enter a live mode, where the user can enter a product by name, specify a quantity, and pay for it. The user can buy many products in this way.
 
 ### Test files
 There are several test files in the main folder. 
