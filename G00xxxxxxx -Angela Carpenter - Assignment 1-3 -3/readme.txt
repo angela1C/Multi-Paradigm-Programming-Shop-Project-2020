@@ -1,9 +1,5 @@
-# Multi-Paradigm-Programming-Shop-Project-2020
-
-
+G00376372 Angela Carpenter.
 This folder contains the files for the Shop Assignment submitted for the Multi-Paradigm Programming module at GMIT by Angela Carpenter.
-The actual project was to be submitted through the college Moodle platform as a zip file. This repository serves as a reference for the project.
-
 ---
 
 The assignment was to build a shop program as developed in the lecture video series with the following functionality:
@@ -36,7 +32,8 @@ The assignment was to build a shop program as developed in the lecture video ser
 - The Python procedural code is in a python file called `shop.py` in a folder called `python`.
 - The C procedural code is written in a folder called `c` in a file called `shop.c`. 
 - The object oriented approach is written in Python in a file called shop_oop.py in a folder called python_oop.
-
+- The stock file is called `stock.csv`.
+- There are several customer csv files in the folder also.
 
 ## Running the code
 
